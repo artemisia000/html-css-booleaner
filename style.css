@@ -23,3 +23,9 @@
 #paragrafo {
     color: rgb(26, 116, 201);
 }
+
+/*section 1*/
+
+#underline {
+    text-decoration: underline;
+}
