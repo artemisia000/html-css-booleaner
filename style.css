@@ -1,10 +1,18 @@
 
 
 /* container*/
-.container {
-    background-size: cover ;
-    background-image: ('../img/pattern.jpg');
+
+
+#logo {
+    width: 200px;
+    height: 100px
+    ;
+    
+}
+
+.title {
+    background-image: url('../html-css-booleaner-1/img/pattern.png');
+    height: 18%;
     width: 100%;
-
-
+    background-color: rgb(26, 116, 201);
 }
