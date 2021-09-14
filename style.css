@@ -27,5 +27,33 @@
 /*section 1*/
 
 #underline {
-    text-decoration: underline;
+    background-color: yellow;
+    
+}
+
+
+
+
+
+
+
+#image1 {
+    background-image: url(../html-css-booleaner-1/img/monitor.jpg);
+    width: 300px;
+    height: 250px;
+    background-repeat: no-repeat;
+}
+
+#image2 {
+    background-image: url(../html-css-booleaner-1/img/graph.jpg);
+    width: 300px;
+    height: 250px;
+    background-repeat: no-repeat;
+}
+
+.lorem {
+    color: #fff;
+    font-size: 22px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
