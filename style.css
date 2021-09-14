@@ -1,7 +1,9 @@
 
 *{
     font-family: 'Kaisei Tokumin', serif;
+
 }
+
 
 
 #logo {
@@ -26,9 +28,18 @@
 
 /*section 1*/
 
-#underline {
+.underline {
     background-color: yellow;
     
+}
+
+
+/*add table*/
+#thead{
+    background-color: deepskyblue;
+}
+.th{
+    color: #fff;
 }
 
 
@@ -36,6 +47,22 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer image*/
 
 #image1 {
     background-image: url(../html-css-booleaner-1/img/monitor.jpg);
