@@ -1,74 +1,118 @@
+/*utilities*/
 
-*{
-    font-family: 'Kaisei Tokumin', serif;
+/*container*/
 
+.container{
+    width: 70%;
+    margin: 0 auto;
+    background: #fff;
 }
 
 
+/*header*/
 
 #logo {
     width: 200px;
     height: 100px;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-bottom: 5px;
-    
-    
+    padding-left: 5px;
+     
 }
 
 .title {
     background-image: url('../html-css-booleaner-1/img/pattern.png');
-    height: 18%;
+    height: 100px;
     width: 100%;
     background-color: rgb(26, 116, 201);
+    background-size: 35%;
 }
 
-#paragrafo {
-    color: rgb(26, 116, 201);
+/*main*/
+main{
+    padding: 0 10px;
 }
+
+/*intro*/
+
+h1{
+    font-size: 38px;
+    margin-bottom: 0;
+}
+
+.author{
+    font-size: 18px;
+    color: dimgray;
+}
+
+.author.name{
+    color: rgb(26, 116, 201) ;
+}
+
+.data{
+    font-size: 15px;
+    color: dimgrey;
+}
+
+.photos{
+    font-size: 12px;
+}
+
 
 /*section 1*/
+
+p{
+    margin: 30px 0;
+}
 
 .underline {
     background-color: yellow;
     
 }
 
+/*section2*/
+
+ul{
+    padding-left: 16px;
+}
 
 /*add table*/
-#thead{
-    background-color: deepskyblue;
+
+table{
+    border-collapse:0 ;
+    
 }
-.th{
+
+thead{
+    background-color: rgb(26, 116, 201);
     color: #fff;
+    text-align: left;
+}
+
+.th{
+    width: 50%;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.tab.color{
+    background-color: aqua;
+}
 
 
 
 /*footer image*/
+
+footer{
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
 
 #image1 {
     background-image: url(../html-css-booleaner-1/img/monitor.jpg);
     width: 300px;
     height: 250px;
     background-repeat: no-repeat;
+    
 }
 
 #image2 {
@@ -76,6 +120,7 @@
     width: 300px;
     height: 250px;
     background-repeat: no-repeat;
+    
 }
 
 .lorem {
