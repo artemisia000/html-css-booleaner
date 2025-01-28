@@ -11,21 +11,27 @@
 
 /*header*/
 
+header{
+    background-color: rgb(26, 116, 201) ;
+}
+
 #logo {
     width: 200px;
     height: 100px;
     padding-top: 20px;
     padding-bottom: 5px;
     padding-left: 5px;
+    z-index: 5;
      
 }
 
 .title {
-    background-image: url('../html-css-booleaner-1/img/pattern.png');
+    background-image: url('./img/pattern.png');
     height: 100px;
     width: 100%;
-    background-color: rgb(26, 116, 201);
-    background-size: 35%;
+    /* background-color: rgb(26, 116, 201); */
+     background-size: 20%; 
+     
 }
 
 /*main*/
@@ -54,9 +60,13 @@ h1{
     color: dimgrey;
 }
 
-.photos{
+/* .photos{
     font-size: 12px;
-}
+} */
+
+/* .photos img{
+   width: 48%;
+} */
 
 
 /*section 1*/
@@ -89,8 +99,13 @@ thead{
     text-align: left;
 }
 
+
 .th{
     width: 50%;
+}
+
+tr{
+    padding: 20px;
 }
 
 
@@ -98,6 +113,9 @@ thead{
     background-color: aqua;
 }
 
+tbody tr:nth-child(even){
+    background-color: rgba(26, 116, 201, 0.514);
+} 
 
 
 /*footer image*/
@@ -108,7 +126,7 @@ footer{
 }
 
 #image1 {
-    background-image: url(../html-css-booleaner-1/img/monitor.jpg);
+    background-image: url(./img/monitor.jpg);
     width: 300px;
     height: 250px;
     background-repeat: no-repeat;
@@ -116,7 +134,7 @@ footer{
 }
 
 #image2 {
-    background-image: url(../html-css-booleaner-1/img/graph.jpg);
+    background-image: url(./img/graph.jpg);
     width: 300px;
     height: 250px;
     background-repeat: no-repeat;
@@ -129,3 +147,7 @@ footer{
     padding-top: 10px;
     padding-left: 10px;
 }
+/* 
+.logoPattern{
+    object-fit: cover;
+} */
